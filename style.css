@@ -9,7 +9,9 @@ h1{
 
 }
 
-
+p{
+    color: rgb(67, 32, 170);
+}
 
 .blue-color{
     color: rgb(95, 91, 229);
@@ -18,9 +20,10 @@ h1{
       
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width img{
-    width: 450px;
+    width: 400px;
 }
 .half-width{
     
@@ -40,4 +43,5 @@ section{
     background-repeat: no-repeat;
    
 }
+
 
