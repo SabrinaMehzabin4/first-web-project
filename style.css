@@ -1,7 +1,10 @@
 body{
         font-family: "Poppins", sans-serif;
         margin: 0;
-
+        background-image: url(image/pic_123.jpg);
+    
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
       }
 h1{
     margin-top: 90px;
@@ -10,25 +13,29 @@ h1{
 }
 
 p{
-    color: rgb(67, 32, 170);
+    color: rgb(127, 20, 36);
+
 }
 
 .blue-color{
-    color: rgb(95, 91, 229);
+    color: rgba(57, 7, 173, 0.884);
 }
 
       
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
+
 .half-width img{
     width: 400px;
 }
+
 .half-width{
     
-    padding-left: 6%;
+   padding-left: 6%;
 }
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(rgb(196, 31, 119), rgb(246, 179, 190));
@@ -36,12 +43,45 @@ section{
     border-radius: 5px;
     color: black;
     font-weight: 500;
+    
+
 
 }
 .top-banner{
     background-image: url(image/banner2.png);
     background-repeat: no-repeat;
    
+}
+
+.about{
+    background-image: url(image/backgnd-1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.movies-series{
+    margin-left: 6%;
+}
+
+
+
+
+.items{
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+    margin-left: 4% ;
+    margin-right: 4%;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-left: 7px solid purple;
+    background-image: url(image/bg_001.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+footer p{
+ text-align: center;
 }
 
 
